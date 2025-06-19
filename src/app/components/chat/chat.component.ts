@@ -24,7 +24,7 @@ import {MatPaginatorIntl} from '@angular/material/paginator';
 import {MatDrawer} from '@angular/material/sidenav';
 import {MatSnackBar} from '@angular/material/snack-bar';
 import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
-import {ActivatedRoute, NavigationEnd, Router, Params} from '@angular/router';
+import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {instance} from '@viz-js/viz';
 import {BehaviorSubject, catchError, combineLatest, distinctUntilChanged, filter, map, Observable, of, shareReplay, switchMap, take, tap} from 'rxjs';
 
