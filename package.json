@@ -9,7 +9,8 @@
     "test": "ng test",
     "clean-config": "node clean-backend.js",
     "inject-backend": "node set-backend.js",
-    "serve": "npm run clean-config && npm run inject-backend && ng serve"
+    "serve": "npm run clean-config && npm run inject-backend && ng serve --host 0.0.0.0",
+    "serve-local": "npm run clean-config && npm run inject-backend && ng serve"
   },
   "private": true,
   "dependencies": {

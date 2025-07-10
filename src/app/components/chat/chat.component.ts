@@ -307,8 +307,8 @@ export class ChatComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.showSidePanel = true;
-    this.sideDrawer.open();
+    this.showSidePanel = false;
+    this.sideDrawer.close();
   }
 
   scrollToBottom() {
